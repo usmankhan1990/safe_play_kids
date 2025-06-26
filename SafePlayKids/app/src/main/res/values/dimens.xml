@@ -1,0 +1,6 @@
+<resources>
+    <!-- system_bar_height pulls the real status-bar height on all devices -->
+    <dimen name="status_bar_height">
+        50dp   <!-- Android automatically resolves this -->
+    </dimen>
+</resources>

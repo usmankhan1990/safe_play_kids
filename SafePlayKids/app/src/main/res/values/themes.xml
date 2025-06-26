@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SafePlayKids" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- ① Give the status bar an opaque color -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- ② Tell the system *not* to draw behind the status-bar -->
+        <item name="android:windowFullscreen">false</item>
+        <!-- ③ Edge-to-edge turned off for navigation bar, too -->
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+</resources>
